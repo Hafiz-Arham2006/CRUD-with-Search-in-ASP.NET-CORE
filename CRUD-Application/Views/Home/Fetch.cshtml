@@ -1,0 +1,85 @@
+﻿@using CRUD_Application.Models;
+@model List<Student>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Edit</title>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="text-center mb-4">
+            <h1>CRUD Application in ASP.NET CORE</h1>
+        </div>
+
+        <div class="d-flex justify-content-end mb-3">
+            <a href="@Url.Action("Insert", "Home")" class="btn btn-primary">
+                <i class="fas fa-plus"></i> Add
+            </a>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-10">
+
+                
+                 
+              
+                  <table>
+                    <form method="get">
+                      <tr>
+                        <td>   <input type="search" class="form-control" placeholder="Search Student here..." name="search" /></td>
+                        <td>
+                            <input type="submit" class="btn btn-success text-light" value="Search"/>
+                        </td>
+                      </tr>
+                    </form>
+                  </table>
+                  
+                <table class="table table-striped table-bordered text-center">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Age</th>
+                            <th scope="col">City</th>
+                            <th scope="col">Phone</th>
+                            <th scope="col">Date of Birth</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                <h1>@ViewBag.msg</h1>
+                        @foreach (var data in Model)
+                        {
+                            <tr>
+                                <td>@data.Name</td>
+                                <td>@data.Age</td>
+                                <td>@data.City</td>
+                                <td>@data.Phone</td>
+                                <td>@data.Dob</td>
+                                <td>
+                                    <a href="@Url.Action("Update","Home", new { id = @data.Id })" class="btn btn-warning btn-sm me-1">
+                                        <i class="fas fa-edit"></i> Edit
+                                    </a>
+                                    <a href="@Url.Action("Delete","Home", new { id = @data.Id })" class="btn btn-danger btn-sm">
+                                        <i class="fas fa-trash-alt"></i> Delete
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

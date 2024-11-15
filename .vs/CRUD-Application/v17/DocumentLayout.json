@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Work\\ASP.NET CORE\\CRUD Application\\CRUD-Application\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46EB831C-7C87-4011-9A09-CDF356A44FEC}|CRUD-Application\\CRUD-Application.csproj|e:\\work\\asp.net core\\crud application\\crud-application\\crud-application\\views\\home\\fetch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{46EB831C-7C87-4011-9A09-CDF356A44FEC}|CRUD-Application\\CRUD-Application.csproj|solutionrelative:crud-application\\views\\home\\fetch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46EB831C-7C87-4011-9A09-CDF356A44FEC}|CRUD-Application\\CRUD-Application.csproj|e:\\work\\asp.net core\\crud application\\crud-application\\crud-application\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EB831C-7C87-4011-9A09-CDF356A44FEC}|CRUD-Application\\CRUD-Application.csproj|solutionrelative:crud-application\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6d4078d1-5951-4ed1-ac0e-0a8099c1cce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fetch.cshtml",
+              "DocumentMoniker": "E:\\Work\\ASP.NET CORE\\CRUD Application\\CRUD-Application\\CRUD-Application\\Views\\Home\\Fetch.cshtml",
+              "RelativeDocumentMoniker": "CRUD-Application\\Views\\Home\\Fetch.cshtml",
+              "ToolTip": "E:\\Work\\ASP.NET CORE\\CRUD Application\\CRUD-Application\\CRUD-Application\\Views\\Home\\Fetch.cshtml",
+              "RelativeToolTip": "CRUD-Application\\Views\\Home\\Fetch.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAmwCEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T21:06:58.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\Work\\ASP.NET CORE\\CRUD Application\\CRUD-Application\\CRUD-Application\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CRUD-Application\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\Work\\ASP.NET CORE\\CRUD Application\\CRUD-Application\\CRUD-Application\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CRUD-Application\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T21:05:28.377Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
